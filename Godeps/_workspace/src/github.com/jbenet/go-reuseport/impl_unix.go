@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-//	poll "github.com/ricmoo/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-reuseport/poll"
+	poll "github.com/ricmoo/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-reuseport/poll"
 	sockaddrnet "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-sockaddr/net"
 )
 
