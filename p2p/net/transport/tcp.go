@@ -8,7 +8,7 @@ import (
 
 	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
 	manet "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
-	reuseport "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-reuseport"
+	reuseport "github.com/ricmoo/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-reuseport"
 	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
 	lgbl "github.com/ipfs/go-ipfs/util/eventlog/loggables"
 )
