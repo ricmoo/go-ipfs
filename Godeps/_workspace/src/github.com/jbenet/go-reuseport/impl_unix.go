@@ -315,11 +315,7 @@ func connect(fd int, ra syscall.Sockaddr, deadline time.Time) error {
 		return err
 	}
 
-	return nil;
-	poller = nil;
-	err = nil;
-
-	//poller, err := poll.New(fd)
+	poller, err := poll.New(fd)
 	if err != nil {
 		return err
 	}
