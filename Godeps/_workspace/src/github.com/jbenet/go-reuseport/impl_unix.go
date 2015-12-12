@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-	poll "github.com/ricmoo/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-reuseport/poll"
+//	poll "github.com/ricmoo/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-reuseport/poll"
 	sockaddrnet "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-sockaddr/net"
 )
 
@@ -315,7 +315,11 @@ func connect(fd int, ra syscall.Sockaddr, deadline time.Time) error {
 		return err
 	}
 
-	poller, err := poll.New(fd)
+	return nil;
+	poller = nil;
+	err = nil;
+
+	//poller, err := poll.New(fd)
 	if err != nil {
 		return err
 	}
